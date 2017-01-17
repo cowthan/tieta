@@ -22,7 +22,7 @@ class AdminController extends Controller{
 					'msg'=>'所有字段不能为空'
 			);
 		}else{
-			$users = DB::table('admins')->where("username", "=", $username)->get();
+			$users = DB::table('admins')->where("username", "=", $username)->get() or [];
 			if(count($users) == 0){
 				$result_arr = array(
 						'code'=>'1',

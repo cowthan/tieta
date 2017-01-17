@@ -70,11 +70,11 @@ return [
 //            'write' => [
 //                'host' => 'rds72u8iow6ff1cng0b7.mysql.rds.aliyuncs.com'
 //            ],
-            'host' => 'rds72u8iow6ff1cng0b7.mysql.rds.aliyuncs.com',
+            'host' => 'localhost',
             'driver'    => 'mysql',
-            'database'  => 'tower-platform',  //tieta2是不知道哪个公司的
-            'username'  => 'tieta1',
-            'password'  => 'gdzdh0901',
+            'database'  => 'tieta',  //tieta2是不知道哪个公司的
+            'username'  => 'root',
+            'password'  => '1234321',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',

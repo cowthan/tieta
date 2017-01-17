@@ -30,7 +30,6 @@ SET character_set_connection='utf8';
 SET character_set_results='utf8';
 SET character_set_server='utf8';
 
--- ======================================
 
 create table if not exists users(
 	id int primary key auto_increment,

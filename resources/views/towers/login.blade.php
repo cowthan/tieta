@@ -65,11 +65,13 @@
             signin_password = $("#in_password");
 
             $("#btnSignIn").click(function(){
+				
                 $.get('loginAdmin', {
                     "username": signin_username.val(),
                     "password" : signin_password.val()
                 }, function(data, status) {
                     var res = data; //JSON.parse(data);
+					alert("dd");
                     if(status === "success"){
                         if(res.code == '0'){
                             layer.msg("成功了！");
